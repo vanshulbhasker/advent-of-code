@@ -45,23 +45,10 @@ int main() {
         string s;
         cin>>s;
         vector<int> nums=split(s);
-        //  cout<<nums[0]<<" "<<nums[1]<<endl;
         dp[nums[1]][nums[0]]=1;
 
     }
-    int ret=0;
-
-    // for(int i=0;i<7;i++){
-    //     for(int j=0;j<20;j++){
-    //         // cout<<dp[i][j];
-    //         if(dp[i][j]){
-    //             // ret++;
-    //         }
-    //     }
-    //     cout<<endl;
-    // }
-    
-    
+    int ret=0;    
     
     cout<<endl<<endl;
     
@@ -92,5 +79,5 @@ int main() {
         }
         cout<<endl;
     }
-    // cout<<ret<<endl;
+
 }
