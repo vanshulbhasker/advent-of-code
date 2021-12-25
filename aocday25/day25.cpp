@@ -108,5 +108,5 @@ int main() {
         ret++;
         // print(nums);
     }
-    cout<<ret;
+    cout<<ret+1;
 }
